@@ -1,0 +1,331 @@
+{
+  "data": [
+    {
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:59.833Z"
+        }
+      },
+      "display-name": "security list for private subnet-condo",
+      "egress-security-rules": [
+        {
+          "description": null,
+          "destination": "0.0.0.0/0",
+          "destination-type": "CIDR_BLOCK",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "all",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "destination": "::/0",
+          "destination-type": "CIDR_BLOCK",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "all",
+          "tcp-options": null,
+          "udp-options": null
+        }
+      ],
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:43:57.594Z"
+      },
+      "id": "ocid1.securitylist.oc1.us-sanjose-1.aaaaaaaaljkq3mxis577s3x6hxicmgopd5tchawp4ksfbes5wz2eoqi7s4ia",
+      "ingress-security-rules": [
+        {
+          "description": null,
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 22,
+              "min": 22
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": 4,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": null,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "10.1.0.0/16",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 22,
+              "min": 22
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": 4,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": null,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "2603:c024:c013:e600::/56",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        }
+      ],
+      "lifecycle-state": "AVAILABLE",
+      "time-created": "2026-01-23T03:43:59.863000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq"
+    },
+    {
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:58.494Z"
+        }
+      },
+      "display-name": "Default Security List for condo",
+      "egress-security-rules": [
+        {
+          "description": null,
+          "destination": "0.0.0.0/0",
+          "destination-type": "CIDR_BLOCK",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "all",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "destination": "::/0",
+          "destination-type": "CIDR_BLOCK",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "all",
+          "tcp-options": null,
+          "udp-options": null
+        }
+      ],
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:31:01.127Z"
+      },
+      "id": "ocid1.securitylist.oc1.us-sanjose-1.aaaaaaaamfkqg23q5onak4qdcf3d3ta7e5yexmz7s5qjsh5463etommsce5a",
+      "ingress-security-rules": [
+        {
+          "description": null,
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 22,
+              "min": 22
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": 4,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": null,
+            "type": 3
+          },
+          "is-stateless": false,
+          "protocol": "1",
+          "source": "10.1.0.0/16",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 22,
+              "min": 22
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        },
+        {
+          "description": null,
+          "icmp-options": {
+            "code": 0,
+            "type": 2
+          },
+          "is-stateless": false,
+          "protocol": "58",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": "Tailscale - Direct P2P (v4) - Open to all to allow Tailscale to \"hole punch\" for direct speeds.",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "17",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": {
+            "destination-port-range": {
+              "max": 41641,
+              "min": 41641
+            },
+            "source-port-range": null
+          }
+        },
+        {
+          "description": "Tailscale - Direct P2P (v6) - Same as above but for IPv6 connectivity.",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "17",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": {
+            "destination-port-range": {
+              "max": 41641,
+              "min": 41641
+            },
+            "source-port-range": null
+          }
+        },
+        {
+          "description": "DNS - Home Network (Condo) - Only open to your specific IP to prevent DDoS amplification attacks.",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "17",
+          "source": "172.115.100.1/32",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": {
+            "destination-port-range": {
+              "max": 53,
+              "min": 53
+            },
+            "source-port-range": null
+          }
+        },
+        {
+          "description": "DNS TCP - Zone Transfers/Large Queries - Required for DNS queries that exceed UDP packet limits.",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "172.115.100.1/32",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 53,
+              "min": 53
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        },
+        {
+          "description": "IPv6 Ping & Latency Diagnostics - Critical: Must select \"IPv6-ICMP\" protocol, not just \"ICMP.\"",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "58",
+          "source": "::/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": null,
+          "udp-options": null
+        },
+        {
+          "description": "SSH Access - Universal - Consider restricting this to your Home IP later for better security.",
+          "icmp-options": null,
+          "is-stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source-type": "CIDR_BLOCK",
+          "tcp-options": {
+            "destination-port-range": {
+              "max": 22,
+              "min": 22
+            },
+            "source-port-range": null
+          },
+          "udp-options": null
+        }
+      ],
+      "lifecycle-state": "AVAILABLE",
+      "time-created": "2026-01-23T03:43:58.559000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq"
+    }
+  ]
+}

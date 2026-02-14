@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "availability-domain": null,
+      "cidr-block": "10.1.1.0/24",
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:59.831Z"
+        }
+      },
+      "dhcp-options-id": "ocid1.dhcpoptions.oc1.us-sanjose-1.aaaaaaaajaf24d4qcr4zcdsj7gwhijrw6ne3p33ppspast3w44qoljrilkiq",
+      "display-name": "private subnet-condo",
+      "dns-label": "sub01230344001",
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:43:57.594Z"
+      },
+      "id": "ocid1.subnet.oc1.us-sanjose-1.aaaaaaaacgtxzshoreud4e2pwdasouv4ggeku5bq3ydehbpzkmiu6ofnpipq",
+      "ipv4-cidr-blocks": [
+        "10.1.1.0/24"
+      ],
+      "ipv6-cidr-block": null,
+      "ipv6-cidr-blocks": null,
+      "ipv6-virtual-router-ip": null,
+      "lifecycle-state": "AVAILABLE",
+      "prohibit-internet-ingress": true,
+      "prohibit-public-ip-on-vnic": true,
+      "route-table-id": "ocid1.routetable.oc1.us-sanjose-1.aaaaaaaabkn4wnjzhrac3tmz7qebvjlkz7sqhgebkw6rte5oabl5h5iozsnq",
+      "security-list-ids": [
+        "ocid1.securitylist.oc1.us-sanjose-1.aaaaaaaaljkq3mxis577s3x6hxicmgopd5tchawp4ksfbes5wz2eoqi7s4ia"
+      ],
+      "subnet-domain-name": "sub01230344001.condo.oraclevcn.com",
+      "time-created": "2026-01-23T03:44:00.146000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq",
+      "virtual-router-ip": "10.1.1.1",
+      "virtual-router-mac": "00:00:17:0A:89:70"
+    },
+    {
+      "availability-domain": null,
+      "cidr-block": "10.1.0.0/24",
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:59.796Z"
+        }
+      },
+      "dhcp-options-id": "ocid1.dhcpoptions.oc1.us-sanjose-1.aaaaaaaajaf24d4qcr4zcdsj7gwhijrw6ne3p33ppspast3w44qoljrilkiq",
+      "display-name": "public subnet-condo",
+      "dns-label": "sub01230344000",
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:43:57.594Z"
+      },
+      "id": "ocid1.subnet.oc1.us-sanjose-1.aaaaaaaah26ipo37zhp66ieg2ocqg5h3f4rkq5ujwnlppmnvszsolnpbrkqq",
+      "ipv4-cidr-blocks": [
+        "10.1.0.0/24"
+      ],
+      "ipv6-cidr-block": "2603:c024:c013:e600::/64",
+      "ipv6-cidr-blocks": [
+        "2603:c024:c013:e600:0000:0000:0000:0000/64"
+      ],
+      "ipv6-virtual-router-ip": "fe80::200:17ff:fe0a:8970",
+      "lifecycle-state": "AVAILABLE",
+      "prohibit-internet-ingress": false,
+      "prohibit-public-ip-on-vnic": false,
+      "route-table-id": "ocid1.routetable.oc1.us-sanjose-1.aaaaaaaamulravtxwauyhb7asmu66qknd3x3xel44pe5eyvys5msgjbzduma",
+      "security-list-ids": [
+        "ocid1.securitylist.oc1.us-sanjose-1.aaaaaaaamfkqg23q5onak4qdcf3d3ta7e5yexmz7s5qjsh5463etommsce5a"
+      ],
+      "subnet-domain-name": "sub01230344000.condo.oraclevcn.com",
+      "time-created": "2026-01-23T03:43:59.826000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq",
+      "virtual-router-ip": "10.1.0.1",
+      "virtual-router-mac": "00:00:17:0A:89:70"
+    }
+  ]
+}

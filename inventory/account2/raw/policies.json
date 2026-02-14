@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {},
+      "description": "Tenant Admin Policy",
+      "freeform-tags": {},
+      "id": "ocid1.policy.oc1..aaaaaaaaygpkj3pfkemjmaocy7f36f7sjc7rjfrpsdeqkvskukqavb5jzapa",
+      "inactive-status": null,
+      "lifecycle-state": "ACTIVE",
+      "name": "Tenant Admin Policy",
+      "statements": [
+        "ALLOW GROUP Administrators to manage all-resources IN TENANCY"
+      ],
+      "time-created": "2026-01-22T21:32:09.427000+00:00",
+      "version-date": null
+    }
+  ]
+}

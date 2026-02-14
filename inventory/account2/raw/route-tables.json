@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:59.854Z"
+        }
+      },
+      "display-name": "route table for private private subnet-condo",
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:43:57.594Z"
+      },
+      "id": "ocid1.routetable.oc1.us-sanjose-1.aaaaaaaabkn4wnjzhrac3tmz7qebvjlkz7sqhgebkw6rte5oabl5h5iozsnq",
+      "lifecycle-state": "AVAILABLE",
+      "route-rules": [
+        {
+          "cidr-block": null,
+          "description": null,
+          "destination": "0.0.0.0/0",
+          "destination-type": "CIDR_BLOCK",
+          "network-entity-id": "ocid1.natgateway.oc1.us-sanjose-1.aaaaaaaahjnmpmddbacv73kzeggzlid53cqatse3gmc4e5va66esgbkfypga",
+          "route-type": "STATIC"
+        },
+        {
+          "cidr-block": null,
+          "description": null,
+          "destination": "all-sjc-services-in-oracle-services-network",
+          "destination-type": "SERVICE_CIDR_BLOCK",
+          "network-entity-id": "ocid1.servicegateway.oc1.us-sanjose-1.aaaaaaaacnpzrjwlozulw564qkqv4a54v2m4k6qenh65a72wbf56hjp5gwpa",
+          "route-type": "STATIC"
+        }
+      ],
+      "time-created": "2026-01-23T03:43:59.862000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq"
+    },
+    {
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:58.494Z"
+        }
+      },
+      "display-name": "default route table for condo",
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:31:01.127Z"
+      },
+      "id": "ocid1.routetable.oc1.us-sanjose-1.aaaaaaaamulravtxwauyhb7asmu66qknd3x3xel44pe5eyvys5msgjbzduma",
+      "lifecycle-state": "AVAILABLE",
+      "route-rules": [
+        {
+          "cidr-block": null,
+          "description": null,
+          "destination": "0.0.0.0/0",
+          "destination-type": "CIDR_BLOCK",
+          "network-entity-id": "ocid1.internetgateway.oc1.us-sanjose-1.aaaaaaaam4dlegwjvzxfwcdut2v2rtwgkysejxg3dvwwdhjf2pvaaumwq2tq",
+          "route-type": "STATIC"
+        },
+        {
+          "cidr-block": null,
+          "description": null,
+          "destination": "::/0",
+          "destination-type": "CIDR_BLOCK",
+          "network-entity-id": "ocid1.internetgateway.oc1.us-sanjose-1.aaaaaaaam4dlegwjvzxfwcdut2v2rtwgkysejxg3dvwwdhjf2pvaaumwq2tq",
+          "route-type": "STATIC"
+        }
+      ],
+      "time-created": "2026-01-23T03:43:58.559000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq"
+    }
+  ]
+}
