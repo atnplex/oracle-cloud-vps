@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "auto-tuned-vpus-per-gb": null,
+      "autotune-policies": [],
+      "availability-domain": "NLjr:US-SANJOSE-1-AD-1",
+      "boot-volume-replicas": null,
+      "cluster-placement-group-id": null,
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T07:57:39.165Z"
+        }
+      },
+      "display-name": "condo (Boot Volume)",
+      "freeform-tags": {},
+      "id": "ocid1.bootvolume.oc1.us-sanjose-1.abzwuljr4sto7ca3w5ahlp6ityqxllmgwet7iohlpexbzgv7r3qro3vhmata",
+      "image-id": "ocid1.image.oc1.us-sanjose-1.aaaaaaaaef3hcvxxjiadnlpiyv5erhvbgmyzdrnh2gjhmikhdrpjjpiydjnq",
+      "is-auto-tune-enabled": false,
+      "is-hydrated": true,
+      "kms-key-id": null,
+      "lifecycle-state": "AVAILABLE",
+      "size-in-gbs": 200,
+      "size-in-mbs": 204800,
+      "source-details": null,
+      "system-tags": {
+        "orcl-cloud": {
+          "free-tier-retained": "true"
+        }
+      },
+      "time-created": "2026-01-23T07:57:42.864000+00:00",
+      "volume-group-id": null,
+      "vpus-per-gb": 20
+    }
+  ]
+}

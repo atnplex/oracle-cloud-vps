@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "byoipv6-cidr-blocks": null,
+      "cidr-block": "10.1.0.0/16",
+      "cidr-blocks": [
+        "10.1.0.0/16"
+      ],
+      "compartment-id": "ocid1.tenancy.oc1..aaaaaaaac327gm6chiinwfsyxfeanbyf2cb5iasqpy5cdfn4byiqajldzsta",
+      "default-dhcp-options-id": "ocid1.dhcpoptions.oc1.us-sanjose-1.aaaaaaaajaf24d4qcr4zcdsj7gwhijrw6ne3p33ppspast3w44qoljrilkiq",
+      "default-route-table-id": "ocid1.routetable.oc1.us-sanjose-1.aaaaaaaamulravtxwauyhb7asmu66qknd3x3xel44pe5eyvys5msgjbzduma",
+      "default-security-list-id": "ocid1.securitylist.oc1.us-sanjose-1.aaaaaaaamfkqg23q5onak4qdcf3d3ta7e5yexmz7s5qjsh5463etommsce5a",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/wongkm1alex@gmail.com",
+          "CreatedOn": "2026-01-23T03:43:58.494Z"
+        }
+      },
+      "display-name": "condo",
+      "dns-label": "condo",
+      "freeform-tags": {
+        "VCN": "2026-01-23T03:31:01.127Z"
+      },
+      "id": "ocid1.vcn.oc1.us-sanjose-1.amaaaaaaqtezv6aa23u3jlw6mjcygyppg7ynzlrkvdbp65r4npunwahyqssq",
+      "ipv6-cidr-blocks": [
+        "2603:c024:c013:e600::/56"
+      ],
+      "ipv6-private-cidr-blocks": null,
+      "is-zpr-only": null,
+      "lifecycle-state": "AVAILABLE",
+      "security-attributes": {},
+      "time-created": "2026-01-23T03:43:58.559000+00:00",
+      "vcn-domain-name": "condo.oraclevcn.com"
+    }
+  ]
+}
