@@ -1,0 +1,42 @@
+#cloud-config
+# oci3 (arm3) Bootstrap Configuration
+# Unified baseline via ssot-infrastructure
+
+users:
+  - name: alex
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHG6vW1A9vF8Bf0Q8M3J/k5M0P1lSgVp8vR0oT/h8J6L alex@atnplex.com
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - curl
+  - git
+  - jq
+  - docker.io
+  - docker-compose
+  - unattended-upgrades
+
+runcmd:
+  # 1. Install Tailscale
+  - curl -fsSL https://tailscale.com/install.sh | sh
+  # Note: User must provide TAILSCALE_AUTH_KEY via OCI metadata or manual replace
+  - tailscale up --authkey=${TAILSCALE_AUTH_KEY} --hostname=oci3 --ssh
+  
+  # 2. Setup ATN Directory Structure
+  - mkdir -p /atn/github /atn/data /atn/config
+  - chown -R alex:alex /atn
+  
+  # 3. Clone Base Repos
+  - sudo -u alex git clone https://github.com/atnplex/homelab-gitops /atn/github/homelab-gitops
+  
+  # 4. Final hardening
+  - ufw allow 22/tcp
+  - ufw allow 443/tcp
+  - ufw --force enable
+
+final_message: "oci3 bootstrap complete. Connect via 'ssh alex@oci3' via Tailscale."
